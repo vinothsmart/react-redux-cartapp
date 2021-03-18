@@ -1,0 +1,39 @@
+
+component
+
+containers
+
+services
+
+    actions
+
+    reducers
+
+    constants
+
+----------------------------------------------------------------
+Action
+What is action
+Make function in action file
+Return data and type
+Add constant and use constant in action
+----------------------------------------------------------------
+Reducer
+initial state
+function which returns previous state and data
+----------------------------------------------------------------
+Container
+
+connect redux with react
+import redux-react,action and component
+use mapStateToProps, mapDispatchtoProps
+
+connect (mapStateToProps, mapDispatchtoProps)
+----------------------------------------------------------------
+Complete redux flow
+
+Make redux wrapper in index file
+what is provider
+make store
+check data flow in console
+Call Action on button Click
