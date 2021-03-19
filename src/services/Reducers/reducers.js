@@ -5,6 +5,7 @@ const intialState = {
 };
 
 export default function cartItems(state = intialState, action) {
+  console.warn("action", action);
   switch (action.type) {
     case ADD_TO_CART:
       return {
