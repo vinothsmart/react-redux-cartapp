@@ -1,9 +1,9 @@
 function Home(props) {
-  console.log("props", props);
+  console.log("props", props.data.cartItems);
   return (
     <>
       <div className="cart">
-        <h1>Cart : 0</h1>
+        <h1>Cart : {props.data.cartItems.length}</h1>
       </div>
 
       <div className="item">
