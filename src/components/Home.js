@@ -2,10 +2,6 @@ function Home(props) {
   console.log("props", props.data.cartItems);
   return (
     <>
-      <div className="cart">
-        <h1>Cart : {props.data.cartItems.length}</h1>
-      </div>
-
       <div className="item">
         <img
           alt="mobile"
