@@ -1,6 +1,7 @@
 import { ADD_TO_CART } from "../constant";
 
-export function addToCart(data) {
+export default function addToCart(data) {
+  console.warn("action", data);
   return {
     type: ADD_TO_CART,
     data: data,
