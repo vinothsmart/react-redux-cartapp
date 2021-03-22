@@ -21,6 +21,16 @@ function Home(props) {
         >
           Add to cart
         </button>
+        <button
+          onClick={() => {
+            props.removeFromCartHandler({
+              price: 1000,
+              name: "Samsung",
+            });
+          }}
+        >
+          Remove from cart
+        </button>
       </div>
     </>
   );
